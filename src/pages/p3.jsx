@@ -9,7 +9,7 @@ import openSocket from 'socket.io-client'
 
 
 
-const P1=()=> {
+const P3=()=> {
   const socket=openSocket('http://192.168.1.36:2000')
   const [scard,setscard]=useState(53)
   const [card1,setcard1]=useState(53);
@@ -24,52 +24,52 @@ const P1=()=> {
   const [card10,setcard10]=useState(53);
     function getcard1(){
       if(card1===53){
-        socket.emit('getcard','p1c1')
+        socket.emit('getcard','p3c1')
       }
   }
   function getcard2(){
     if(card2===53){
-      socket.emit('getcard','p1c2')    }
+      socket.emit('getcard','p3c2')    }
   }
   function getcard3(){
     if(card3===53){
-      socket.emit('getcard','p1c3')
+      socket.emit('getcard','p3c3')
     }
   }
   function getcard4(){
     if(card4===53){
-      socket.emit('getcard','p1c4')
+      socket.emit('getcard','p3c4')
     }
   }
   function getcard5(){
     if(card5===53){
-      socket.emit('getcard','p1c5')
+      socket.emit('getcard','p3c5')
     }
   }
   function getcard6(){
     if(card6===53){
-      socket.emit('getcard','p1c6')
+      socket.emit('getcard','p3c6')
     }
   }
   function getcard7(){
     if(card7===53){
-      socket.emit('getcard','p1c7')
+      socket.emit('getcard','p3c7')
     }
   }
 
   function getcard8(){
     if(card8===53){
-      socket.emit('getcard','p1c8')
+      socket.emit('getcard','p3c8')
     }
   }
   function getcard9(){
     if(card9===53){
-      socket.emit('getcard','p1c9')
+      socket.emit('getcard','p3c9')
     }
   }
   function getcard10(){
     if(card10===53){
-      socket.emit('getcard','p1c10')
+      socket.emit('getcard','p3c10')
     }
   }
 
@@ -127,34 +127,34 @@ const P1=()=> {
   setscard(data)
 
   })
-  socket.on('p1c1',function(data){
+  socket.on('p3c1',function(data){
     setcard1(data)
   })
-  socket.on('p1c2',function(data){
+  socket.on('p3c2',function(data){
     setcard2(data)
   })
-  socket.on('p1c3',function(data){
+  socket.on('p3c3',function(data){
     setcard3(data)
   })
-  socket.on('p1c4',function(data){
+  socket.on('p3c4',function(data){
     setcard4(data)
   })
-  socket.on('p1c5',function(data){
+  socket.on('p3c5',function(data){
     setcard5(data)
   })
-  socket.on('p1c6',function(data){
+  socket.on('p3c6',function(data){
     setcard6(data)
   })
-  socket.on('p1c7',function(data){
+  socket.on('p3c7',function(data){
     setcard7(data)
   })
-  socket.on('p1c8',function(data){
+  socket.on('p3c8',function(data){
     setcard8(data)
   })
-  socket.on('p1c9',function(data){
+  socket.on('p3c9',function(data){
     setcard9(data)
   })
-  socket.on('p1c10',function(data){
+  socket.on('p3c10',function(data){
     setcard10(data)
   })
 
@@ -217,4 +217,4 @@ const P1=()=> {
   );
 }
 
-export default P1;
+export default P3;

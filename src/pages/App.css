@@ -14,13 +14,13 @@
 }
 
 .die {
-  width: 165px;
-  height: 250px;
+  width: 132px;
+  height: 200px;
   margin: 10px;
 }
 
 .button {
-  margin: 20px;
+  margin: 26px;
   outline: none;
   animation: button-gradient 25s ease infinite;
   background-image: -webkit-linear-gradient(65deg,#21d4fd,#b721ff 50%,#017eff);
@@ -33,7 +33,7 @@
   font-size: 14px;
   font-weight: 600;
   height: 40px;
-  width: 150px;
+  width: 100px;
 }
 
 .button:hover {
