@@ -10,7 +10,7 @@ import openSocket from 'socket.io-client'
 
 
 const P1=()=> {
-  const socket=openSocket('http://192.168.1.36:2000')
+  const socket=openSocket('http://petenpelit.duckdns.org:2000')
   const [scard,setscard]=useState(53)
   const [card1,setcard1]=useState(53);
   const [card2,setcard2]=useState(53);
